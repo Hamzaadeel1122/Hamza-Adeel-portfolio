@@ -812,12 +812,11 @@ section {
 
 .timeline-date {
     position: absolute;
-    left: 0;
-    top: 25px;
+    right: 0;
+    top: 38px;
     font-weight: 600;
     color: var(--primary-color);
     font-size: 0.9rem;
-    width: 80px;
     text-align: right;
     padding-right: 25px;
 }
@@ -876,7 +875,7 @@ section {
 .education h3 {
     font-size: 1.8rem;
     margin-bottom: 30px;
-    text-align: center;
+    text-align: left;
     color: var(--primary-color);
 }
 
