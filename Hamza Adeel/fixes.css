@@ -1,0 +1,108 @@
+.social-links {
+    margin-top: 15px;
+    display: flex;
+}
+
+.social-links a.linkedin-link {
+    display: flex;
+    align-items: center;
+    color: #0077b5; /* LinkedIn blue color */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.social-links a.linkedin-link:hover {
+    color: #005582; /* Darker blue on hover */
+}
+
+.social-links a.linkedin-link i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.social-links a.linkedin-link span {
+    font-size: 16px;
+}
+
+/* Add GitHub link styling */
+.social-links a.github-link {
+    display: flex;
+    align-items: center;
+    color: #333333; /* GitHub dark color */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    margin-left: 20px;
+}
+
+.social-links a.github-link:hover {
+    color: #24292e; /* GitHub darker shade on hover */
+}
+
+.social-links a.github-link i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.social-links a.github-link span {
+    font-size: 16px;
+}
+
+/* LinkedIn link in contact section */
+.contact-text a.linkedin-link {
+    color: #0077b5; /* LinkedIn blue color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: inline-block; /* Prevent tilting */
+    vertical-align: middle; /* Align properly */
+}
+
+.contact-text a.linkedin-link:hover {
+    color: #005582; /* Darker blue on hover */
+    text-decoration: underline;
+}
+
+.contact-text a.linkedin-link span {
+    font-size: inherit;
+    display: inline-block; /* Ensure proper text alignment */
+    vertical-align: middle; /* Align text properly */
+}
+
+/* GitHub link in contact section */
+.contact-text a.github-link {
+    color: #333333; /* GitHub dark color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: inline-block; /* Prevent tilting */
+    vertical-align: middle; /* Align properly */
+}
+
+.contact-text a.github-link:hover {
+    color: #24292e; /* GitHub darker shade on hover */
+    text-decoration: underline;
+}
+
+.contact-text a.github-link span {
+    font-size: inherit;
+    display: inline-block; /* Ensure proper text alignment */
+    vertical-align: middle; /* Align text properly */
+}
+
+/* Fix for contact item alignment */
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 

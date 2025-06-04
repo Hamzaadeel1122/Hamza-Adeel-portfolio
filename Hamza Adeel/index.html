@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Adeel | Frontend Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Add this line in the head section, after your other CSS links -->
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="timeline.css">
+    <link rel="stylesheet" href="fixes.css">
+</head>
+<body>
+    <div id="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="#hero">Frontend Engineer</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hamza Adeel</h1>
+                    <h2>Frontend Engineer</h2>
+                    <p>Crafting intuitive and performant web experiences with modern technologies</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary-btn">View Projects</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-placeholder">
+                        <div class="profile-circle"></div>
+                        <div class="profile-accent"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a specialized Frontend Engineer based in New York with 5+ years of experience in building responsive, accessible, and high-performance web applications. My technical stack includes React, TypeScript, Next.js, and various modern frontend tools and frameworks.</p>
+                        <p>I excel at translating designs into pixel-perfect implementations, optimizing for performance, and creating seamless user experiences that drive engagement and conversion.</p>
+                        <p>With experience working for Fortune 500 companies and innovative startups, I bring both technical expertise and a user-centered approach to every project I undertake.</p>
+                        <div class="about-details">
+                            <div class="detail">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>New York, USA</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-envelope"></i>
+                                <span>hamza.adeel@example.com</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-phone"></i>
+                                <span>+1 (555) 123-4567</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/hamza-adeel" target="_blank" class="linkedin-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>Hamza Adeel</span>
+                            </a>
+                            <a href="https://github.com/hamzaadeel" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i>
+                                <span>hamzaadeel</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Frontend Development</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-react"></i></div>
+                                <h4>React.js</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                                <h4>JavaScript/TypeScript</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                                <h4>Next.js</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                                <h4>Responsive Design</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>UI/UX & Design</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                                <h4>Figma</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-sass"></i></div>
+                                <h4>SASS/SCSS</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                                <h4>Styled Components</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-universal-access"></i></div>
+                                <h4>Accessibility (a11y)</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Web Performance & Tools</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <h4>Performance Optimization</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-code-branch"></i></div>
+                                <h4>Git/GitHub</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-vial"></i></div>
+                                <h4>Jest/React Testing</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-server"></i></div>
+                                <h4>CI/CD</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section - Redesigned -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="theme">Theme Development</button>
+                    <button class="filter-btn" data-filter="app">App Integration</button>
+                    <button class="filter-btn" data-filter="optimization">Optimization</button>
+                    <button class="filter-btn" data-filter="app-dev">App Development</button>
+                </div>
+                <div class="projects-grid">
+                    <!-- The Makeup Light Project -->
+                    <div class="project-card" data-category="theme app">
+                        <div class="project-image">
+                            <div class="project-placeholder" style="background-color: #4f46e5;">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>The Makeup Light</h3>
+                            <p>Led development for an Oscar-winning client, creating custom theme features and managing app integrations.</p>
+                            <div class="project-tags">
+                                <span>Theme Development</span>
+                                <span>App Integration</span>
+                                <span>Project Management</span>
+                            </div>
+                            <button class="project-details-btn" data-project="makeup-light">View Details</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Wellnesse Project -->
+                    <div class="project-card" data-category="theme app">
+                        <div class="project-image">
+                            <div class="project-placeholder" style="background-color: #10b981;">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Wellnesse</h3>
+                            <p>Developed custom landing pages, implemented data tracking, and migrated theme from Dawn to Ecomify.</p>
+                            <div class="project-tags">
+                                <span>Project Management</span>
+                                <span>Speed Optimization</span>
+                                <span>Theme Development</span>
+                                <span>Theme Migration</span>
+                                <span>Data Tracking</span>
+                                <span>CRO</span>
+                            </div>
+                            <button class="project-details-btn" data-project="wellnesse">View Details</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Minkaa Daisy Project -->
+                    <div class="project-card" data-category="theme optimization">
+                        <div class="project-image">
+                            <div class="project-placeholder" style="background-color: #f59e0b;">
+                                <i class="fas fa-tshirt"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Minkaa Daisy</h3>
+                            <p>Successfully migrated theme from Canopy to Dawn 2.0, implemented CRO strategies, and improved site speed.</p>
+                            <div class="project-tags">
+                                <span>Project Management</span>
+                                <span>Theme Development</span>
+                                <span>Theme Migration</span>
+                                <span>CRO</span>
+                                <span>Speed Optimization</span>
+                            </div>
+                            <button class="project-details-btn" data-project="minkaa-daisy">View Details</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Upgraded Formulas Project -->
+                    <div class="project-card" data-category="app">
+                        <div class="project-image">
+                            <div class="project-placeholder" style="background-color: #6366f1;">
+                                <i class="fas fa-flask"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Upgraded Formulas</h3>
+                            <p>Developed streamlined purchase section and enhanced customer portal with test reports and authentication.</p>
+                            <div class="project-tags">
+                                <span>Customer Portal</span>
+                                <span>Recharge App</span>
+                                <span>Custom Development</span>
+                            </div>
+                            <button class="project-details-btn" data-project="upgraded-formulas">View Details</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Desmonies Shoes Project -->
+                    <div class="project-card" data-category="theme">
+                        <div class="project-image">
+                            <div class="project-placeholder" style="background-color: #ec4899;">
+                                <i class="fas fa-shoe-prints"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Desmonies Shoes</h3>
+                            <p>Developed a custom Shopify store for a premium footwear brand with advanced filtering and product showcase features.</p>
+                            <div class="project-tags">
+                                <span>Theme Development</span>
+                                <span>Product Filtering</span>
+                                <span>UX Optimization</span>
+                            </div>
+                            <button class="project-details-btn" data-project="desmonies-shoes">View Details</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Gameon Event Project -->
+                    <div class="project-card featured-project" data-category="app-dev">
+                        <div class="project-image">
+                            <div class="project-placeholder" style="background-color: #8b5cf6;">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Gameon Event</h3>
+                            <p>Developing a comprehensive event management platform as a Shopify private app with Next.js backend and employee management system.</p>
+                            <div class="project-tags">
+                                <span>Next.js</span>
+                                <span>Shopify Private App</span>
+                                <span>Employee Management</span>
+                                <span>CRUD Operations</span>
+                            </div>
+                            <button class="project-details-btn" data-project="gameon-event">View Details</button>
+                        </div>
+                    </div>
+                    
+                    <!-- NCC Health Store Project -->
+                    <div class="project-card featured-project" data-category="theme app">
+                        <div class="project-image">
+                            <div class="project-placeholder" style="background-color: #14b8a6;">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>NCC Health Store</h3>
+                            <p>Developed a health products store with custom powder formulation system, personalized recommendations, and health tracking.</p>
+                            <div class="project-tags">
+                                <span>Custom Formulation</span>
+                                <span>Health Tracking</span>
+                                <span>API Integrations</span>
+                                <span>Subscription System</span>
+                            </div>
+                            <button class="project-details-btn" data-project="ncc-health">View Details</button>
+                        </div>
+                    </div>
+
+                    <!-- Just Thrive Project -->
+                    <div class="project-card" data-category="theme app">
+                        <div class="project-image">
+                            <div class="project-placeholder" style="background-color: #9333ea;">
+                                <i class="fas fa-bacteria"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Just Thrive</h3>
+                            <p>Executed comprehensive theme development and implemented advanced checkout customizations for a premium probiotic brand.</p>
+                            <div class="project-tags">
+                                <span>Theme Development</span>
+                                <span>Checkout Extensions</span>
+                                <span>Web Pixel Extensions</span>
+                            </div>
+                            <button class="project-details-btn" data-project="just-thrive">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Modal -->
+        <div id="project-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div id="modal-content"></div>
+            </div>
+        </div>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section-title">Work Experience</h2>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date-container">
+                            <div class="timeline-month">Jan</div>
+                            <div class="timeline-year">2022</div>
+                            <div class="timeline-status">Present</div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="job-title">Senior Frontend Engineer</h3>
+                            <h4 class="company-location">TechInnovate, New York</h4>
+                            <ul class="job-responsibilities">
+                                <li>Lead the frontend development for the company's flagship SaaS product used by over 500,000 users worldwide.</li>
+                                <li>Architect and implement scalable component systems using React, TypeScript, and Next.js.</li>
+                                <li>Optimize web performance, reducing load times by 40% and improving Core Web Vitals scores.</li>
+                                <li>Mentor junior developers and establish frontend best practices and coding standards.</li>
+                                <li>Collaborate with UX designers and backend teams to deliver seamless user experiences.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date-container">
+                            <div class="timeline-month">Mar</div>
+                            <div class="timeline-year">2020</div>
+                            <div class="timeline-status">Dec 2021</div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="job-title">Frontend Developer</h3>
+                            <h4 class="company-location">DataViz Solutions, Boston</h4>
+                            <ul class="job-responsibilities">
+                                <li>Developed interactive data visualization dashboards using React, D3.js, and Redux.</li>
+                                <li>Implemented responsive designs ensuring cross-browser compatibility and accessibility compliance.</li>
+                                <li>Created reusable UI components to accelerate development workflows across multiple projects.</li>
+                                <li>Collaborated with data scientists to create intuitive interfaces for complex analytical tools.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date-container">
+                            <div class="timeline-month">Jun</div>
+                            <div class="timeline-year">2018</div>
+                            <div class="timeline-status">Feb 2020</div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="job-title">UI Developer</h3>
+                            <h4 class="company-location">Creative Digital Agency, San Francisco</h4>
+                            <ul class="job-responsibilities">
+                                <li>Built responsive websites and web applications for clients across various industries.</li>
+                                <li>Converted design mockups into functional interfaces using HTML5, CSS3, and JavaScript.</li>
+                                <li>Optimized sites for maximum speed and scalability across different devices and browsers.</li>
+                                <li>Collaborated with cross-functional teams to meet client objectives and project deadlines.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="education-details">
+                            <h4>B.S. Computer Science</h4>
+                            <p>Massachusetts Institute of Technology</p>
+                            <p>2014 - 2018</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Redesigned Contact Section to use full space -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-intro">
+                            <p>Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Location</h3>
+                                <p>New York, USA</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p>hamza.adeel@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Phone</h3>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>LinkedIn</h3>
+                                <a href="https://www.linkedin.com/in/hamza-adeel" target="_blank" class="linkedin-link">
+                                    <span>Hamza Adeel</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>GitHub</h3>
+                                <a href="https://github.com/hamzaadeel" target="_blank" class="github-link">
+                                    <span>hamzaadeel</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Hamza Adeel. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html> 
